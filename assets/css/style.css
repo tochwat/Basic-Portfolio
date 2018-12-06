@@ -59,9 +59,24 @@ a {
 
 }
 
+
+a:hover {
+    color: #20847e;
+}
+
+a:active {
+    color: #4aaaa5;
+    text-shadow: 2px 2px 11px #c1c1c1;
+}
+
+a:focus {
+    color: #4aaaa5;
+    text-shadow: 2px 2px 11px #c1c1c1;
+}
+
 header {
     overflow: hidden;
-    background-color: white;
+    background-color: #ffffff;
     border-bottom: 2px solid #cccccc;
     margin-bottom: 0;
 }
@@ -111,9 +126,10 @@ hr {
 .main {
     margin: 31px 15% 75px 15%;
     overflow: hidden;
-    background-color: white;
+    background-color: #ffffff;
     padding: 10px 24px 24px 24px;
-    border: 1px solid #cacaca77;
+    border: 1px solid #dddddd;
+    width: 960px;
 }
 
 .bioPic {
@@ -161,6 +177,10 @@ hr {
     width: 250px;
     margin-top: 176px;
     padding: 20px 0 20px;
+}
+
+.grid-name:hover {
+    background-color: #097570;
 }
 
 
