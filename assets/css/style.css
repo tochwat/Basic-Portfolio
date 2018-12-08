@@ -212,6 +212,11 @@ hr {
 
 }
 
+.submitButton:hover {
+    background-color: #20847e;
+
+}
+
 footer {
     text-align: center;
     background-color: #666666;
