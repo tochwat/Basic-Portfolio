@@ -169,6 +169,11 @@ hr {
 
 }
 
+.grid-item-1:hover, .grid-item-2:hover, .grid-item-3:hover, .grid-item-4:hover, .grid-item-5:hover {
+    box-shadow: 2px 2px 10px grey;
+
+}
+
 .grid-name {
     background-color: #4aaaa5;
     /* overflow: auto; */
